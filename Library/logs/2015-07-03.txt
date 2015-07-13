@@ -1,0 +1,11 @@
+Time : 09:38:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'B.buy_seq desc' at line 9
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+			FROM durian_buy as B
+			LEFT JOIN durian_buy_goods as G
+			ON B.buy_seq=G.buy_seq
+			where B.buy_memo like :reseller_id
+			and B.buy_date > :sDate
+			and B.buy_date < :eDate
+			and G.good_seq = :product_id
+			order B.buy_seq desc

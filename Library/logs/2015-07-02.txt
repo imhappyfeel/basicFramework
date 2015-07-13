@@ -1,0 +1,102 @@
+Time : 16:11:50
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+			FROM durian_buy as B
+			LEFT JOIN durian_buy_goods as G
+			ON B.buy_seq=G.buy_seq
+			where B.buy_memo like :reseller_id
+			and B.buy_date > :sDate
+			and B.buy_date < :eDate
+			order by B.buy_seq desc
+
+Time : 16:11:02
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+			FROM durian_buy as B
+			LEFT JOIN durian_buy_goods as G
+			ON B.buy_seq=G.buy_seq
+			where B.buy_memo like :reseller_id
+			and B.buy_date > :sDate
+			and B.buy_date < :eDate
+			order by B.buy_seq desc
+
+Time : 16:10:45
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+			FROM durian_buy as B
+			LEFT JOIN durian_buy_goods as G
+			ON B.buy_seq=G.buy_seq
+			where B.buy_memo like :reseller_id
+			and B.buy_date > :sDate
+			and B.buy_date < :eDate
+			order by B.buy_seq desc
+
+Time : 16:09:40
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+			FROM durian_buy as B
+			LEFT JOIN durian_buy_goods as G
+			ON B.buy_seq=G.buy_seq
+			where B.buy_memo like :reseller_id
+			and B.buy_date > :sDate
+			and B.buy_date < :eDate
+
+Time : 16:08:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by B.buy_seq desc' at line 7
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+				FROM durian_buy as B
+				LEFT JOIN durian_buy_goods as G
+				ON B.buy_seq=G.buy_seq
+				where B.buy_memo like :reseller_id
+				and B.buy_date > :sDate
+				and B.buy_date < :eDateorder by B.buy_seq desc
+
+Time : 16:08:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by B.buy_seq desc' at line 7
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+				FROM durian_buy as B
+				LEFT JOIN durian_buy_goods as G
+				ON B.buy_seq=G.buy_seq
+				where B.buy_memo like :reseller_id
+				and B.buy_date > :sDate
+				and B.buy_date < :eDateorder by B.buy_seq desc
+
+Time : 16:03:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by B.buy_seq desc' at line 7
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+				FROM durian_buy as B
+				LEFT JOIN durian_buy_goods as G
+				ON B.buy_seq=G.buy_seq
+				where B.buy_memo like :reseller_id
+				and B.buy_date > :sDate
+				and B.buy_date < :eDateorder by B.buy_seq desc
+
+Time : 16:03:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by B.buy_seq desc' at line 7
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+				FROM durian_buy as B
+				LEFT JOIN durian_buy_goods as G
+				ON B.buy_seq=G.buy_seq
+				where B.buy_memo like :reseller_id
+				and B.buy_date > :sDate
+				and B.buy_date < :eDateorder by B.buy_seq desc
+
+Time : 16:02:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by B.buy_seq desc' at line 7
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+				FROM durian_buy as B
+				LEFT JOIN durian_buy_goods as G
+				ON B.buy_seq=G.buy_seq
+				where B.buy_memo like :reseller_id
+				and B.buy_date > :sDate
+				and B.buy_date < :eDateorder by B.buy_seq desc
+
+Time : 16:02:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by B.buy_seq desc' at line 7
+Raw SQL : SELECT B.buy_seq, B.user_id, B.buy_code, B.buy_status, B.buy_total_price, B.pay_price_normal, B.pay_method, B.buy_date, G.good_seq, G.buy_good_name, G.buy_good_count
+				FROM durian_buy as B
+				LEFT JOIN durian_buy_goods as G
+				ON B.buy_seq=G.buy_seq
+				where B.buy_memo like :reseller_id
+				and B.buy_date > :sDate
+				and B.buy_date < :eDateorder by B.buy_seq desc

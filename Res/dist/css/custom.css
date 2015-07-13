@@ -1,0 +1,41 @@
+/* GROBAL */
+body {
+  font-family: "Malgun Gothic", Dotum, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+
+/* MISC */
+table.thColor td{
+	background:#fff;
+}
+.displayNone{
+	display:none;
+}
+.cursorPointer{
+	cursor:pointer;
+}
+.marginTop10{
+	margin-top:10px;
+}
+.fontSize80em{
+	font-size:0.8em;
+}
+.fontSize50em{
+	font-size:0.5em;
+}
+.lineHeight200em{
+	line-height:2em;
+}
+.lineHeight150em{
+	line-height:1.5em;
+}
+.Metrophobic {
+	font-family: 'Kaushan Script', cursive;
+}
+.padding10{
+	padding:10px;
+}
